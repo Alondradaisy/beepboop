@@ -1,9 +1,13 @@
 $(document).ready(function() {
-  var userInput = 
+  var numberGiven = [];
+  var numberCondition = [];
 
-
-  $("form#application").submit(function(event) {
+  $("#submitButton").click(function(event) {
     event.preventDefault();
+    var numberInput = $("#numberInput").val();
+    numberGiven.submit(numberCondition);
+    result();
+  
   }
 
 
