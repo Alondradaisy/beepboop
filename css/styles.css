@@ -1,0 +1,8 @@
+.container {
+  display: block;
+  align-content: center;
+}
+.jumbotron {
+  color: #bbc394;
+  background-color: antiquewhite;
+}
