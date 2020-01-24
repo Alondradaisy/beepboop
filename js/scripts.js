@@ -1,11 +1,21 @@
+// business logic 
 $(document).ready(function() {
-  var numberGiven = [];
+  var inputtedNumber = [];
   var numberCondition = [];
 
-  $("#submitButton").click(function(event) {
+
+
+
+
+
+
+// user interface logic
+  $("application").click(function(event) {
     event.preventDefault();
-    var numberInput = $("#numberInput").val();
-    numberGiven.submit(numberCondition);
+  
+
+    var  = $("#numberInput").val();
+    inputtedNumber.submit(numberCondition);
     result();
   
   }
