@@ -1,24 +1,28 @@
 // business logic 
+
 $(document).ready(function() {
-  var inputtedNumber = [];
-  var numberCondition = [];
+  var inputtedNumber = ("application");
+  application(submit);
 
 
 
-
+});
+function application() {
+  $("id").submit("application");
+}
 
 
 
 // user interface logic
-  $("application").click(function(event) {
+
+
+
+$(document).ready(function() {
+  $("form#application").submit(function(event) {
     event.preventDefault();
+    var application = $("input#application").val();
+    var result = application(inputtedNumber);
+    $("#result").submit(result);
   
-
-    var  = $("#numberInput").val();
-    inputtedNumber.submit(numberCondition);
-    result();
-  
-  }
-
-
+  });
 });
