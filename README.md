@@ -18,14 +18,16 @@ _The purpose of this Beep Boop application is to allow users to input a number a
 * _Wait for program's response to inputted number_
 
 | SPECS | BEHAVIORS | INPUTS | OUTPUTS |
-| --- | The program returns a range of numbers from 0 to the user's inputted number | 4 | "1, 2, 3, 4" |
-| --- | If the user inputs a single digit number higher than 3, the program returns the statements associated with 1,2,and 3, then include the following number(s) | 5 | "0", "Beep!"", "Boop!"", "I'm sorry, Dave. I'm afraid I can't do that", 4, 5 |
-| --- | If the user inputs a number with a 2, the program returns and replaces the digits with the statement associated with 2 | 26 | "Boop!" |
-| --- | If the user inputs a two digit number including the number 1, the program returns "Beep!" in place of the number inputted | 100 | "Beep!" |
-| --- | If the user inputs a number that contains two of the numbers associated with statements (1, 2, or 3), the program returns the statement associated with the first digit's rule and replaces the digits with the linked statement | 31 | "I'm Sorry, Dave. I'm afraid I can't do that |
-| --- | If the user inputs a character other than a number, return a statement that asks to enter a number | ! | "Enter a number" |
+____________________________________________
 
 
+|   |   |   |   |   |
+|---|---|---|---|---|
+|1|The program returns a range of numbers from 0 to the user's inputted number|4|"1, 2, 3, 4"
+|2|If the user inputs a single digit number higher than 3, the program returns the statements associated with 1,2,and 3, then include the following number(s)|5|"0", "Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5"|
+|3|If the user inputs a number with a 2, the program returns and replaces the digits with the statement associated with 2|26|"Boop!"|
+|4|If the user inputs a two digit number including the number 1, the program returns "Beep!" in place of the number inputted|100|"Beep!"|
+|5|If the user inputs a character other than a number, return a statement that asks to enter a number|!|"Enter a number"|
 
 _This web application should be able to give different responses each time based on conditions for inputted numbers. _
 
