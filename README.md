@@ -1,37 +1,48 @@
 # _Beep Boop Independent Project_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This Beep Boop web application takes a number from a user and returns a range of numbers from 0 to the user inputted number, with a few exceptions., January 24, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Alondra Daisy Warren**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The purpose of this Beep Boop application is to allow users to input a number and the program will return different responses based on the conditions assigned. The three numbers that are associated with different reponses are numbers 1, 2, and 3. If the user inputs a number that has two of the numbers above, the first exception should apply, unless the second exception does._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Copy the Github project link_
+* _Run the command git clone + (Github link) into terminal_
+* _Open up Beep Boop project in VS Code_
+* _Browse the web application_
+* _Use the web application; start by inputting a number_
+* _Wait for program's response to inputted number_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+| SPECS | BEHAVIORS | INPUTS | OUTPUTS |
+| --- | The program returns a range of numbers from 0 to the user's inputted number | 4 | "1, 2, 3, 4" |
+| --- | If the user inputs a single digit number higher than 3, the program returns the statements associated with 1,2,and 3, then include the following number(s) | 5 | "0", "Beep!"", "Boop!"", "I'm sorry, Dave. I'm afraid I can't do that", 4, 5 |
+| --- | If the user inputs a number with a 2, the program returns and replaces the digits with the statement associated with 2 | 26 | "Boop!" |
+| --- | If the user inputs a two digit number including the number 1, the program returns "Beep!" in place of the number inputted | 100 | "Beep!" |
+| --- | If the user inputs a number that contains two of the numbers associated with statements (1, 2, or 3), the program returns the statement associated with the first digit's rule and replaces the digits with the linked statement | 31 | "I'm Sorry, Dave. I'm afraid I can't do that |
+| --- | If the user inputs a character other than a number, return a statement that asks to enter a number | ! | "Enter a number" |
+
+
+
+_This web application should be able to give different responses each time based on conditions for inputted numbers. _
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Currently, there are no known bugs. _
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If any questions, concerns or bugs come up, please do not hesitate to contact me via email at alondra.warren96@gmail.com. Comments and usability suggestions are always encouraged._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, CSS, Markdown, Bootstrap, jQuery, Javascript_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT License*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Alondra Daisy Warren_**
